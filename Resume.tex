@@ -1,7 +1,8 @@
 \documentclass[10pt,fleqn]{article}
 
-\usepackage[left=1in, right=1in, top=1.2in, bottom=0.9in,includefoot]{geometry}
-\usepackage{fancyhdr}
+%\usepackage[left=1in, right=1in, top=1.2in, bottom=0.9in,includefoot]{geometry}
+\usepackage[left=0.8in, right=0.8in, top=0.8in, bottom=0.8in]{geometry}
+%\usepackage{fancyhdr}
 \usepackage{algorithm2e}
 \usepackage[round]{natbib}
 \usepackage{amssymb,amstext,amsmath}
@@ -11,7 +12,7 @@
 \setlength{\parskip}{3mm}
 \input{defs.tex}
 
-\pagestyle{fancy}  
+%\pagestyle{fancy}  
 
 %% Custom added packages
 \usepackage{fancyhdr}
@@ -45,10 +46,10 @@
 %% /Initial setup
 
 
-\renewcommand{\headrulewidth}{0.4pt}
-\fancyfoot[C]{\sffamily \thepage{}}
-\fancyhead[C]{\sffamily\footnotesize \textbf{Ishan Tembhekar}  \hfill Ph No: +16269917232 \\\href{mailto:ishan.tembhekar@caltech.edu}{ishan.tembhekar@caltech.edu} \hfill 1200 E. California Blvd, MC 105-50, Pasadena CA 91125 }
-\fancyhead[RL]{}
+%\renewcommand{\headrulewidth}{0.4pt}
+%\fancyfoot[C]{\sffamily \thepage{}}
+%\fancyhead[C]{\sffamily\footnotesize \textbf{Ishan Tembhekar}  \hfill Ph No: +16269917232 \\\href{mailto:ishan.tembhekar@caltech.edu}{ishan.tembhekar@caltech.edu} \hfill 1200 E. California Blvd, MC 105-50, Pasadena CA 91125 }
+%\fancyhead[RL]{}
 
 
 \begin{document}
@@ -61,92 +62,75 @@
 %\fancyhead[R]{\sffamily\emph{California Institute of Technology}}
 %\renewcommand{\headrulewidth}{0.4pt}
 %\vspace{-2cm}
-\sffamily
+%\sffamily
 
 \begin{center}
-\large %$\mathpzc{Curriculum \ Vitae}$\\[0.4cm] %\emph{Curriculum Vitae}
-\scshape Curriculum  Vitae \upshape\\[0.5cm]
-\LARGE \textbf{Ishan Tembhekar} \small \\[0.66cm]
+%\large %$\mathpzc{Curriculum \ Vitae}$\\[0.4cm] %\emph{Curriculum Vitae}
+%\scshape Curriculum  Vitae \upshape\\[0.5cm]
+\LARGE \textbf{Ishan Tembhekar} \small \\[0.16cm]
+1200 E. California Blvd, MC 105-50, Pasadena CA 91125 \\
+Ph No: +16269917232 \\
+\href{mailto:ishan.tembhekar@caltech.edu}{ishan.tembhekar@caltech.edu} \hfill
 \end{center}
-
-
 %\begin{center}\small 
 %\emph{California Institute of Technology \\
 %Graduate Aerospace Laboratories\\ 
 %1200 East California Blvd., MC 105-50, Pasadena, CA 91125 \\
 %Phone: 626-991-7232}\\[0.27cm]
-
 %\emph{email:} \href{mailto:ishan.tembhekar@caltech.edu}{\emph{ishan.tembhekar}\rmfamily @\sffamily\emph{caltech.edu}} 
 %\end{center}
-
-\section*{Education}
+\paragraph*{Goal:} Seeking an internship in computational modeling for engineering applications for the summer of 2016  
+\paragraph*{Education:}
 \begin{itemize}
-\item[] \textbf{California Institute of Technology}:\\
-		Ph.D  in Mechanical Engineering \hfill 2017(expected)
-\item[] \textbf{California Institute of Technology}:\\
-		Master of Science (M.S) in Mechanical Engineering\\
-		GPA: 4.0/4.0 \hfill 2014
-\item[] \textbf{Indian Institute of Technology}, Gandhinagar:\\
+\setlength{\itemsep}{5pt}
+\setlength{\parskip}{0pt}
+\item[] \textbf{Indian Institute of Technology}, Gandhinagar: \hfill 2012\\
 		Bachelor of Technology (B.Tech) in Mechanical Engineering\\
 		*\textit{Minor in Computer Science}\\
-		GPA: 9.61/10.0 \hfill 2012
+		GPA: 9.61/10.0 
+\item[] \textbf{California Institute of Technology}: \hfill 2014\\
+		Master of Science (M.S) in Mechanical Engineering\\
+		GPA: 4.0/4.0 
+\item[] \textbf{California Institute of Technology}: \hfill  Fall-2017(expected)\\
+		Ph.D in Mechanical Engineering 
 \end{itemize}
-
+\vspace{-20pt}
 %\section*{Areas of Interest}
 %Mechanics of Solids, Coarse Grain Atomistics, High performance computing
-\section*{Professional Experience}
+\paragraph*{Skills:}
 \begin{itemize}
-
-\item[] \textbf{PhD Thesis Project}: \hfill 2013 - Present\\
-		\emph{Exploring Deformation Mechanisms of Hierarchical Nanolattices} \\
-		 Adviser: Prof. Dennis Kochmann, California Institute of Technology
+\setlength{\itemsep}{0pt}
+\setlength{\parskip}{0pt}
+\item Programming Languages: C++, Python, Java, C
+\item Software: MATLAB, Mathematica, Paraview, AutoCAD
+\end{itemize}
+\paragraph*{Professional Experience:}
+\begin{itemize}
+\setlength{\itemsep}{8pt}
+\setlength{\parskip}{0pt}
+\item[] \textbf{PhD Thesis}: \emph{Exploring Deformation Mechanisms of Hierarchical Nanolattices} \\
+		 Adviser: Prof. Dennis Kochmann, California Institute of Technology \hfill 2013 - Present 
 		  \begin{itemize}
-		  \item  Developing computational tools for studying plastic deformation mechanisms of nanocrystalline materials
+		  \item Developing computational tools for studying plastic deformation mechanisms of nanocrystalline materials
+		  \item Building a high-performance C++ code with efficient threading techniques and a distributed memory realization using MPI
  		  \end{itemize}
- 		  
-\item[] \textbf{Undergraduate Summer Research}: \hfill May - July 2011\\
-		\emph{Fracture toughness enhancement of elastically heterogeneous solids} \\
-		  Adviser: Prof. G. Ravichandran, California Institute of Technology
+\item[] \textbf{Summer Research}: \emph{Fracture toughness enhancement of elastically heterogeneous solids} \\
+		  Adviser: Prof. G. Ravichandran, California Institute of Technology \hfill May - July 2011
 		   \begin{itemize}
 			\item Designed an innovative mechanism for construction of materials having higher resistance to crack propagation than conventional materials.
  			\end{itemize}
- 			
-\item[] \textbf{Undergraduate Thesis Project}: \hfill August 2011- April 2012\\
-		\emph{Design of a hybrid vehicle with increased fuel efficiency at least rated power}\\
-		  Adviser: Prof. N. Ramakrishnan, IIT Gandhinagar, India
+\item[] \textbf{Bachelors Thesis}: \emph{Design of a hybrid vehicle with increased fuel efficiency at least rated power}\\		
+		  Adviser: Prof. N. Ramakrishnan, IIT Gandhinagar, India \hfill August 2011- April 2012
 		   \begin{itemize}
 			\item Formed a theoretical framework and a basic prototype of construction of a hybrid vehicle which uses lower rated power than that used in conventional vehicles.
  			\end{itemize} 
- 			
-\item[] \textbf{Undergraduate Industrial Internship}: \hfill May - July 2010\\
-		\emph{Defect Analysis and Problem Solving}\\
-		 Mentor: Mr. B. R. Galgali, DGM, TATA Motors, India
+\item[] \textbf{Industrial Internship}: \emph{Defect Analysis and Problem Solving} \\
+		 Mentor: Mr. B. R. Galgali, DGM, TATA Motors, India \hfill May - July 2010
 		    \begin{itemize}
 			\item Implemented \emph{Pokayoke} or mistake proofing on various defects observed in the assembly line of the High Commercial Vehicles in TATA motors.
  			\end{itemize} 			
 \end{itemize}
-
-\section*{Teaching Experience}
-\begin{itemize}
-\item \textbf{Full TA} for \emph{Computational Mechanics}, Fall 2014 and Winter 2015.\\
-Responsibilities include holding weekly recitations and office hours for students to facilitate their understanding of the subject.
-\item \textbf{Grading TA} for \emph{Continuum Mechanics}, Winter 2014
-\item \textbf{Grading TA} for \emph{Mechanics of Solids and Structures}, Fall 2013
-\item \textbf{Grading TA} for \emph{Engineering Mechanics}, Fall 2011
-\end{itemize}
-\section*{Computer Skills}
-\begin{itemize}
-\setlength{\itemsep}{0pt}
-\item Programming Languages: C++, Python, Java, C
-\item Operating Systems: Windows, Linux, OSX
-\item Software: MATLAB, Mathematica, Paraview, AutoCAD
-\end{itemize}
-
-\section*{Activities}
-\begin{itemize}
-\setlength{\itemsep}{0pt}
-\item Sports: Tennis, Badminton, Trail running and hiking.
-\item Professionally trained in Indian Classical Music.
-\end{itemize}
-
+\vspace{-20pt}
+\paragraph*{Hobbies:} Tennis, Badminton, Trail running, Hiking, Indian Classical Music.
+\paragraph*{Visa/citizenship status:} On a F1 multiple entry student visa. 
 \end{document}
