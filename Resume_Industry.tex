@@ -1,0 +1,146 @@
+\documentclass[10pt,fleqn]{article}
+
+%\usepackage[left=1in, right=1in, top=1.2in, bottom=0.9in,includefoot]{geometry}
+\usepackage[left=0.8in, right=0.8in, top=0.8in, bottom=0.8in]{geometry}
+%\usepackage{fancyhdr}
+\usepackage{algorithm2e}
+\usepackage[round]{natbib}
+\usepackage{amssymb,amstext,amsmath}
+\usepackage{booktabs,graphicx}
+\usepackage{bm}
+\setlength{\parindent}{0mm}
+\setlength{\parskip}{3mm}
+\input{defs.tex}
+
+%\pagestyle{fancy}  
+
+%% Custom added packages
+\usepackage{fancyhdr}
+\usepackage{lastpage}
+\usepackage{wrapfig}
+\usepackage{sidecap}
+\usepackage{hyperref}
+%% /Custom added packages
+
+%% Initial setup
+\hypersetup{
+    %bookmarks=true,         % show bookmarks bar?
+    %unicode=false,          % non-Latin characters in Acrobat’s bookmarks
+    %pdftoolbar=true,        % show Acrobat’s toolbar?
+    %pdfmenubar=true,        % show Acrobat’s menu?
+    %pdffitwindow=false,     % window fit to page when opened
+    %pdfstartview={FitH},    % fits the width of the page to the window
+    %pdftitle={My title},    % title
+    pdfauthor={Ishan Tembhekar},     % author
+    pdfsubject={Resume_Industry},   % subject of the document
+    %pdfcreator={Creator},   % creator of the document
+    %pdfproducer={Producer}, % producer of the document
+    %pdfkeywords={keyword1} {key2} {key3}, % list of keywords
+    %pdfnewwindow=true,      % links in new window
+    %colorlinks=false,       % false: boxed links; true: colored links
+    linkcolor=red,          % color of internal links (change box color with linkbordercolor)
+    citecolor=green,        % color of links to bibliography
+    %filecolor=magenta,      % color of file links
+    urlcolor=cyan           % color of external links
+}
+%% /Initial setup
+
+
+%\renewcommand{\headrulewidth}{0.4pt}
+%\fancyfoot[C]{\sffamily \thepage{}}
+%\fancyhead[C]{\sffamily\footnotesize \textbf{Ishan Tembhekar}  \hfill Ph No: +16269917232 \\\href{mailto:ishan.tembhekar@caltech.edu}{ishan.tembhekar@caltech.edu} \hfill 1200 E. California Blvd, MC 105-50, Pasadena CA 91125 }
+%\fancyhead[RL]{}
+
+
+\begin{document}
+%\thispagestyle{fancy}
+
+%\thispagestyle{fancy}
+%\fancyhf{} % clear all header and footer fields
+%\fancyfoot[C]{\sffamily\thepage}
+%\fancyhead[L]{\sffamily\emph{D.\ M.\ Kochmann}}
+%\fancyhead[R]{\sffamily\emph{California Institute of Technology}}
+%\renewcommand{\headrulewidth}{0.4pt}
+%\vspace{-2cm}
+%\sffamily
+
+\begin{center}
+%\large %$\mathpzc{Curriculum \ Vitae}$\\[0.4cm] %\emph{Curriculum Vitae}
+%\scshape Curriculum  Vitae \upshape\\[0.5cm]
+\LARGE \textbf{Ishan Tembhekar} \small \\[0.16cm]
+1200 E. California Blvd, MC 105-50, Pasadena CA 91125 \\
+Ph No: +16269917232 \\
+\href{mailto:ishan.tembhekar@caltech.edu}{ishan.tembhekar@caltech.edu} \hfill
+\end{center}
+%\begin{center}\small 
+%\emph{California Institute of Technology \\
+%Graduate Aerospace Laboratories\\ 
+%1200 East California Blvd., MC 105-50, Pasadena, CA 91125 \\
+%Phone: 626-991-7232}\\[0.27cm]
+%\emph{email:} \href{mailto:ishan.tembhekar@caltech.edu}{\emph{ishan.tembhekar}\rmfamily @\sffamily\emph{caltech.edu}} 
+%\end{center}
+\paragraph*{Goal:} Seeking a full time position in computational modeling for engineering applications starting Fall 2017
+\paragraph*{Education:}
+\vspace{-10pt}
+\begin{itemize}
+\setlength{\itemsep}{5pt}
+\setlength{\parskip}{0pt}
+\item[] \textbf{Indian Institute of Technology}, Gandhinagar: \hfill 2012\\
+		Bachelor of Technology (B.Tech) in Mechanical Engineering\\
+		*\textit{Minor in Computer Science}\\
+		GPA: 9.61/10.0 
+\item[] \textbf{California Institute of Technology}: \hfill 2014\\
+		Master of Science (M.S) in Mechanical Engineering\\
+		GPA: 4.0/4.0 
+\item[] \textbf{California Institute of Technology}: \hfill  Fall-2017(expected)\\
+		Ph.D in Mechanical Engineering 
+\end{itemize}
+\vspace{-10pt}
+%\section*{Areas of Interest}
+%Mechanics of Solids, Coarse Grain Atomistics, High performance computing
+\paragraph*{Skills:}
+\vspace{-10pt}
+\begin{itemize}
+\setlength{\itemsep}{0pt}
+\setlength{\parskip}{0pt}
+\item Programming Languages: C++, Python, Java, C
+\item Software: MATLAB, Mathematica, Paraview, AutoCAD
+\end{itemize}
+\vspace{-10pt}
+\paragraph*{Relevant coursework:} 
+Mechanics of Solids, Machine Design, Industrial Engineering, Computational Mechanics, Intro to High-Performance Computing,  
+\paragraph*{Professional Experience:}
+\vspace{-10pt}
+\begin{itemize}
+\setlength{\itemsep}{8pt}
+\setlength{\parskip}{0pt}
+\item[] \textbf{PhD Thesis}: \emph{Exploring Deformation Mechanisms of Hierarchical Nanolattices} \\
+		 Advisor: Prof. Dennis Kochmann, California Institute of Technology \hfill 2013 - Present 
+		  \begin{itemize}
+		  \item Developing computational models for studying plastic deformation mechanisms of nanocrystalline materials.
+		  \item Building a high-performance parallel C++ code with efficient threading techniques and a distributed memory realization. 
+ 		  \end{itemize}
+\item[] \textbf{Summer Research}: \emph{Fracture toughness enhancement of elastically heterogeneous solids} \\
+		  Advisor: Prof. G. Ravichandran, California Institute of Technology \hfill May - July 2011
+		   \begin{itemize}
+			\item Designed an innovative mechanism for construction of materials having higher resistance to crack propagation than conventional materials.
+			\item Conducted experiments to verify the mechanism with successful results.
+ 			\end{itemize}
+\item[] \textbf{Bachelors Thesis}: \emph{Design of a hybrid vehicle with increased fuel efficiency at least rated power}\\		
+		  Advisor: Prof. N. Ramakrishnan, IIT Gandhinagar, India \hfill August 2011- April 2012
+		   \begin{itemize}
+			\item Formed a theoretical framework and constructed a basic prototype of construction of a hybrid vehicle which uses lower rated power than that used in conventional vehicles.
+ 			\end{itemize} 
+\item[] \textbf{Industrial Internship}: \emph{Defect Analysis and Problem Solving} \\
+		 Mentor: Mr. B. R. Galgali, DGM, TATA Motors, India \hfill May - July 2010
+		    \begin{itemize}
+			\item Implemented \emph{Pokayoke} or mistake proofing on various defects observed in the assembly line of the High Commercial Vehicles in TATA motors.
+			\item Presented ideas to the Quality Assurance team to increase efficiency of vehicle production.
+ 			\end{itemize} 			
+\end{itemize}
+\vspace{-10pt}
+\paragraph*{Hobbies:} Tennis, Badminton, Trail running, Hiking, Photography, Indian Classical Music.
+\vspace{-10pt}
+%\paragraph*{Visa/citizenship status:} On a F1 multiple entry student visa. \\\\
+%\textbf{References available upon request}
+\end{document}
